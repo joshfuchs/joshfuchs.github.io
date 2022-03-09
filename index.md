@@ -1,5 +1,5 @@
-Here you can say lots of fun things about your site.
+Physics Ph.D., Data Scientist, Educator
 
-Maybe say a some things about yourself.
+This is a simple blog to keep track of some fun projects and ideas.
 
-Or maybe what you plan to blog about.
+Physics Ph.D. with 4 years teaching experience. Significant project management experience. Experimental design and testing. Python and SQL for data analysis and visualization. 
