@@ -38,10 +38,10 @@ for row in data:
 
 DataQuest had a built-in function to plot a simple bar plot of this. I found it hard to read. So I plotted the data in *Seaborn* instead. I have recently started using *Seaborn* frequently and like how intuitive and customizable it is. 
 
-![Attempts Per Year](https://github.com/joshfuchs/joshfuchs.github.io/blob/main/docs/assets/attempts_per_year.png)
+![Attempts Per Year](/docs/assets/attempts_per_year.png)
 
 I was also curious how many of these were successful, as a fraction of the number of attempts that year.
 
-![Fraction of Successful Attempts Per Year](https://github.com/joshfuchs/joshfuchs.github.io/blob/main/docs/assets/fraction_per_year.png)
+![Fraction of Successful Attempts Per Year](/docs/assets/fraction_per_year.png)
 
 These are small number of statistics, especially since the largest number of attempts in a single year was 3. But we don't see an obviously significant change in how successful these attempts were.
