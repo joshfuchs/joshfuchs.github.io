@@ -9,7 +9,7 @@ We loaded the data directly from Wikipedia from the [List of helicopter prison e
 There were six columns in `data`
 
 | Date | Prison Location | Country | Successful? | Names of escapee(s) | Description |
-|------|-----------------|---------|-------------|---------------------|-------------|
+
 
 We didn't care about the `description` so we removed it at this point:
 
