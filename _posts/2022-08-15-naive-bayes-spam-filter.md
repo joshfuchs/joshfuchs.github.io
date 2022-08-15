@@ -96,6 +96,8 @@ To make the final dataframe, we concatenate this dataframe with the ```training`
 
 We now have our training data that we are ready to work with. As a reminder, we will use the following two equations to calculate the probabilities of the messages being spam or not-spam. 
 
+<img src="https://render.githubusercontent.com/render/math?math=P(Spam|w_1, w_2, ..., w_n) \propto P(Spam) \cdot \prod_{i=1}^{n} P(w_i | Spam)">
+
 $P(Spam|w_1, w_2, ..., w_n) \propto P(Spam) \cdot \prod_{i=1}^{n} P(w_i | Spam)$
 
 $P(Ham|w_1, w_2, ..., w_n) \propto P(Ham) \cdot \prod_{i=1}^{n} P(w_i | Ham)$
