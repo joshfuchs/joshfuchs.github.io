@@ -1,6 +1,6 @@
 # Building a Spam Filter with Naive Bayes
 
-The full Jupyter Notebook can be found [on GitHub](https://github.com/joshfuchs/DataScience_projects/blob/master/Bayes_Spam_Filter.ipynb).
+The full Jupyter Notebook can be found [on GitHub](https://github.com/joshfuchs/DataScience_projects/blob/master/Bayes_Spam_Filter.ipynb). Some of the LaTeX does not render correctly on the blog post, but can be viewed and read on GitHub easily. 
 
 In this project, we're going to build a spam filter for use on text messages using Naive Bayes. To classify messages as spam or non-spam, the Naive Bayes algorithm follows these steps:
 
@@ -104,9 +104,9 @@ $P(Ham|w_1, w_2, ..., w_n) \propto P(Ham) \cdot \prod_{i=1}^{n} P(w_i | Ham)$
 
 And to calculate $P(w_i | Spam)$ and $P(w_i | Ham)$ we will use
 
-$ P(w_i | Spam) = \frac{N_{w_i | Spam} + \alpha}{N_{Spam} + \alpha \cdot N_{vocabulary}} $
+$P(w_i | Spam) = \frac{N_{w_i | Spam} + \alpha}{N_{Spam} + \alpha \cdot N_{vocabulary}} $
 
-$ P(w_i | Ham) = \frac{N_{w_i | Ham} + \alpha}{N_{Ham} + \alpha \cdot N_{vocabulary}} $
+$P(w_i | Ham) = \frac{N_{w_i | Ham} + \alpha}{N_{Ham} + \alpha \cdot N_{vocabulary}} $
 
 Some of these values will be constant each message. Let's calculate these constants first:
 
