@@ -1,8 +1,8 @@
-# Predicting Car Prices with K-Means Clustering
+# Predicting Car Prices with K-Nearest Neighbors
 
 See the full Jupyter Notebook on [GitHub](https://github.com/joshfuchs/DataScience_projects/blob/master/Predicting_Car_Prices_k_means.ipynb). 
 
-Let's practice the machine learning workflow to predict's a car's market price using its attributes. For each car in our dataset, we have information about the technical aspects of the vehicle, such as the weight of the car, the miles per gallon, the acceleration, etc. Our goal is to identify which of the attributes, or combination, is most helpful in predicting the price of a car. To do this, we'll use K-Means clustering. 
+Let's practice the machine learning workflow to predict's a car's market price using its attributes. For each car in our dataset, we have information about the technical aspects of the vehicle, such as the weight of the car, the miles per gallon, the acceleration, etc. Our goal is to identify which of the attributes, or combination, is most helpful in predicting the price of a car. To do this, we'll use K-Nearest Neighbors. 
 
 ## Data Set
 We'll be working with the [Automobile Data Set](https://archive.ics.uci.edu/ml/datasets/automobile) from the UCI Machine Learning Repo. 
