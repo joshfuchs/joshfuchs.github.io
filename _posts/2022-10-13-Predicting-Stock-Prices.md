@@ -77,7 +77,16 @@ We are now ready to build our model. We will use a simple ```Linear Regression``
 
 We also try dropping individual indicators to see if any make a significant change on the result. The mean absolute error is surprising insensitive to dropping most of these columns with the exception of ```avg_close_5```, the average closing from the previous 5 days. Dropping the other columns produces very little change.
 
-Finally, we calculate the difference for each data and plot to visualize. The final mean absolute error of 16 is not terrible, but there is a lot of flucuation in the results. To improve the model, we could consider adding in the day of the week or make predictions only one day ahead. 
+Finally, we calculate the difference for each data and plot to visualize. The final mean absolute error of 16 is not terrible, but there is a lot of flucuation in the results. To improve the model, we could consider adding in the day of the week.. 
 
 ![Difference in Prediction and Actual Stock Price](/docs/assets/stock-difference.png)
+
+## Daily Predictions
+Finally, we update our pipeline to make a single daily prediction at a time. We will use all the data until the day before to make our prediction, so the training set gets larger as the we make later and later predictions. We still use the full set of features we used before. Below is a comparison between the difference in the predicted closing price and actual closing price for the mass predictions (green) and the daily prediction (red).
+
+
+![Difference in Mass and Daily Predictions](/docs/assets/stock-difference-comparison.png)
+
+We see that there is basically no difference in the accuracy of the predictions. The difference in these methods is extremely negligible. So the additional training data does not increase model accuracy. As a next step, we could add the day of the week, as mentioned above. Another alternative would be to weight more recent data stronger than less recent data. This would be somewhat complicated to do and we would need to attempt it very carefully. 
+
 
