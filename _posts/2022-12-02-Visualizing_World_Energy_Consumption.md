@@ -61,7 +61,7 @@ Now that we have sorted out the energy shares for each country, let's begin to t
 
 ![US energy consumption over time for fossil, nuclear, and renewable types](/docs/assets/energy_consumption_us_three_types.png)
 
-This is not particualarly intersting at this point. The differences in these values are too large, and the changes too small, to quickly understand the story. 
+This is not particularly interesting at this point. The differences in these values are too large, and the changes too small, to quickly understand the story. 
 
 We need a better story to tell. Let's consider some of the other infomration in our dataframe. Let's look at including ```gdp```, ```per_capita_electricity```, or ```population```. 
 
